@@ -1,11 +1,16 @@
+import Image from "./cloud.png";
+import Header from "./components/header";
+import Steps from "./components/steps";
+
 const FrontPage = () => {
     return ( 
         <div>
-            <h1>Hello Cloud!</h1>
-        </div>
+
+            <Header/>
+            <Steps/>
+            </div>
+
     );
 }
-    <div>
-        <h1>Hello Cloud!</h1>
-    </div>
+
 export default FrontPage;
