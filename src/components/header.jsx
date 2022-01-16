@@ -1,7 +1,8 @@
 import Image from '../cloud.png';
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import React, { Component } from 'react'; 
 
-const header = () => {
+const Header = () => {
     return ( 
         <div class = "center"> 
         <div class="containerBox">
@@ -21,4 +22,4 @@ const header = () => {
      );
 }
  
-export default header;
+export default Header;
