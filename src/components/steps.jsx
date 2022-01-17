@@ -57,7 +57,7 @@ const Steps = () => {
                     </div>
                 </div>
                     <div class = "center">
-                        {isImg && <img className = "photo" src = {"https://storage.cloud.google.com/nutrien2022.appspot.com/architecture%20.png?authuser=1"}/>}
+                        {isImg && <img className = "photo" src = {"https://storage.googleapis.com/nutrien2022.appspot.com/architecture%20.png"}/>}
                     </div>
                 </div>
             </div>
